@@ -1,0 +1,28 @@
+.deals_section {
+    h1 {
+        margin: 1rem 2rem;
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+}
+
+@media only screen and (min-width: 767px) {
+    .deals_section {
+
+        h1  {
+            margin-top: 3.5rem;
+            font-size: 32px;
+        }
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center
+        }
+    }
+}
